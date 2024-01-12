@@ -6,7 +6,8 @@
     }
     nav,
     .teams_container,
-	.facts_card_container{
+	.facts_card_container,
+	.sponsors_img_container{
         flex-direction: column;
     }
     .banner_title{
@@ -30,7 +31,9 @@
     .container{
         width: 90%;
     }
-    nav{
+    nav,
+	.teams_container,
+	.sponsors_img_container{
         flex-direction: column;
     }
     .teams_container{

@@ -5,7 +5,8 @@
         width: 90%;
     }
     nav,
-    .teams_container{
+    .teams_container,
+	.facts_card_container{
         flex-direction: column;
     }
     .banner_title{
@@ -14,10 +15,14 @@
     .teams_img{
         grid-template-columns: 1fr;
     }
-    .teams_content{
+    .teams_content,
+	.facts{
     	padding: 0 20px; 
 		text-align: center;
     }
+	.facts_card_container {
+		gap: 15px;
+	}
 }
 
 /* tablet or medium devices */

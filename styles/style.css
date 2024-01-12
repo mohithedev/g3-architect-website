@@ -1,17 +1,87 @@
+/* variable style */
+:root{
+    --white: #fff;
+    --black: #131313;
+    --dark-gray: #424242;
+    --gray: #727272;
+    --orange: #FF900E;;
+} 
 /* Reset default styles */
 *,
 *::after,
-*::before{
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: 'Work Sans', sans-serif;
 }
 /* Style the body element */
-body {
-  
-  font-size: 16px;
-  color: #333;
-  background-color: #f5f5f5;
+body{
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
 }
+/* shared or common style */
+.container{
+    width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.primary_btn{
+    padding: 20px 25px;
+    background: var(--orange);
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* header style start */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 0;
+}
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title{
+    font-size: 2.8rem;
+    font-weight: 5000;
+    color: var(--black);
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--dark-gray);
+}
+/* banner style */
+.banner_content{
+    max-width: 800px;
+    text-align: center;
+    margin: 100px auto 50px;
+}
+.banner_title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--black);
+}
+.banner_description{
+    color: var(--gray);
+    margin: 25px 0;
+    line-height: 25px;
+}
+.banner img{
+    width: 100%;
+}
+/* header style end */

@@ -41,7 +41,7 @@ body{
     cursor: pointer;
 }
 .description{
-
+    color: var(--gray);
     margin: 25px 0;
     line-height: 25px;
 }
@@ -134,6 +134,46 @@ main{
     font-weight: 700;
 }
 /* teams style end*/
+
+/* features section style start */
+.features{
+    display: flex;
+    gap: 100px;
+    padding: 10px;
+}
+.feature_content .title{
+    border-left: 5px solid var(--orange);
+    padding-left: 20px;
+}
+.feature_content .card{
+    padding: 30px;
+    margin: 0 0 20px;
+    border-radius: 8px;
+    background: var(--white);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.feature_img img{
+    height: 88%;
+    /* width: 100%; */
+    margin-left: 70px;
+}
+.ten_years_badge{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 40px;
+    color: var(--white);
+    width: 340px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+.ten_years_badge h2{
+    font-size: 4rem;
+}
+.ten_years_badge p{
+    font-size: 1.5rem;
+}
+/* features section style end */
 
 /* facts style star */
 .facts_card_container{

@@ -6,6 +6,7 @@
     }
     nav,
     .teams_container,
+    .features,
 	.facts_card_container,
 	.sponsors_img_container{
         flex-direction: column;
@@ -15,6 +16,15 @@
     }
     .teams_img{
         grid-template-columns: 1fr;
+    }
+    .feature_img img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .ten_years_badge{
+        position: static;
+        max-width: 300px;
+        margin: auto;
     }
     .teams_content,
 	.facts{
@@ -32,6 +42,7 @@
         width: 90%;
     }
     nav,
+    .features,
 	.teams_container,
 	.sponsors_img_container{
         flex-direction: column;

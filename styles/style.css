@@ -25,7 +25,6 @@ body{
 
 /* shared or common style */
 .container{
-    width: 75%;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -176,6 +175,9 @@ main{
 /* features section style end */
 
 /* facts style star */
+.facts{
+    padding: 0 10px;
+}
 .facts_card_container{
     display: flex;
     justify-content: space-around;
@@ -211,5 +213,14 @@ main{
     width: 165px;
 }
 /* sponsors style end */
-
 /* main area style end */
+
+/* footer style start */
+footer{
+    max-width: 1440px;
+    padding: 20px 0;
+    margin: 0 auto 0;
+    text-align: center;
+    background: rgba(255, 144, 14, 0.10)
+}
+/* footer style end */
